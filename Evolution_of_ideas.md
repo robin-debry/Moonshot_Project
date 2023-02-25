@@ -1,4 +1,6 @@
-# First idea of a moonshot project
+# Moonshot Project Ideas
+
+## First idea of a moonshot project
 
 My first idea for a moonshot project was a Shazam but for movie.
 When you have a moment of a movie but you don't know the name of the movie you can upload the video on ShaMovie(name of this idea)and ShaMovie return you all the things about this movie with an AI
@@ -42,4 +44,4 @@ Also this idea was rejected
 
 ## Third idea of a moonshot project
 
-Nowaday the accessibility of web is very important it's for that all website need to be accessible but the mobile app are not always accessible for that I want to create an app for blind people or disabled people it will be a health app like to put on it your appointment , your drugs take or not. But this entire accessible for everyone because this app exist already but isn't accessible for everyone
+Nowaday the accessibility for everyone it's very important. Nowaday all websites are accessible because it's mandatory but not the mobile app it's for that i want to create an app in the subject of accessibility I haven't precise idea about the app but I think about it. The most important thing it's about the health app because they are most important application for blind or disabled people.
