@@ -1,0 +1,76 @@
+/* Use relative units for sizing and positioning elements */
+/*   
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 2em;
+    margin-bottom: 1rem;
+    margin: 1rem;
+  }
+  
+  p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 1rem;
+  }
+
+  span {
+    font-size: 1em;
+    padding: 150rem;
+    line-height: 1.5;
+    margin: 1rem;
+  }
+  cite {
+    font-size: 1em;
+    padding: 5rem;
+    line-height: 1.5;
+    margin: 1rem;
+  }
+  div {
+    font-size: 1em;
+    margin-top: 1rem;
+    line-height: 1.5;
+    padding: 10rem;
+  }
+  
+
+  a {
+    font-size: 1em;
+    padding: 150rem;
+    line-height: 1.5;
+  } */
+
+  /* Use media queries to adjust layout as needed */
+  @media screen and (max-width: 768px) {
+    /* Adjust spacing between elements */
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+  
+    p {
+      margin-bottom: 1rem;
+    }
+    span{
+        margin-bottom: 1rem;
+    }
+    cite {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Adjust width of container */
+    .container {
+      width: 100%;
+    }
+  
+    /* Adjust number of columns in grid layout */
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .grid-item {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }

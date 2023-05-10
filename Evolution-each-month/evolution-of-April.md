@@ -1,0 +1,4 @@
+# Progress on the third idea during the month of April
+
+I got a reply from **facil-iti**, they say "from a legal point of view, there is no obstacle, on the contrary, there are incentives for web content to be open to the greatest number. There are different frameworks like the WCAG which are good coding practices or the ISO 30071 standard which says that to be perfectly accessible a digital tool must also be customizable". During this month, I did a lot of research on this standard and I decided to make an extension for visually impaired but not totally blind people because the screen reader is complicated to implement in an extension like this and I don't want to copy what **facil-iti** did.
+Then during the month I started the extension at the beginning just for the font size. For the month of May I have to implement the color, images,.... .
