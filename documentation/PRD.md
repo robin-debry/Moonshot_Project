@@ -18,7 +18,7 @@
 
 ## Overview
 
-Today, not all images are optimised for screen readers because they depend on the creation of the site. So I decided to improve their functionality by giving priority to reading the text in the images.
+Nowadays, screen readers may not provide optimal accessibility for all images, as they are reliant on the website's structure. Therefore, my solution is to enhance their capabilities by prioritising the reading of image text.
 
 ## Opportunity statement
 
@@ -26,7 +26,11 @@ The issue lies in the inadequate adaptation of websites for visually impaired or
 
 ## Audience
 
+These enhancements will greatly assist individuals with partial sight or blindness as they presently encounter significant difficulties with Internet usage, compared to their sighted counterparts.
+
 ## What will happen
+
+Nowadays, screen readers are capable of reading some images in audio format, but only if the website conforms perfectly to the required web structure that permits this, by including "alt" tags containing written descriptions.The problem is that imprecise information can be provided in these descriptions, and very few "alt" tags are used at all. As a result, in the future, it would be preferable for screen readers to recognise text directly on the image, enabling automatic reading by the device, instead of relying on "alt" tags.
 
 ## Success criteria
 
