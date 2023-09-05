@@ -34,11 +34,14 @@ Nowadays, screen readers are capable of reading some images in audio format, but
 
 ## Success criteria
 
+Once the project is operational, it will undergo testing and usage by visually impaired and blind individuals to determine its effectiveness. Additionally, it will be essential to identify any discrepancies the system may encounter as it is impractical to evaluate all potential scenarios independently. Thus, allowing genuine users to ascertain the system's capabilities as per their usage would be optimal.
+
 ## Sizing
+
+The investment will require more time, as I have not yet identified any potential economic costs associated with this project.
 
 ## Selected solution
 
 ## Constraint
 
 ## Milestones
-
