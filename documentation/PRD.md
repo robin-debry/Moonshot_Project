@@ -42,6 +42,10 @@ The investment will require more time, as I have not yet identified any potentia
 
 ## Selected solution
 
+For this project, I have chosen to examine text-based images, as computer accessibility is a vast topic that requires a focused approach.Therefore, I have disregarded the image background and concentrated solely on the text to ensure the informative content is retained.
+
 ## Constraint
+
+There are two main limitations to this project. Firstly, compatibility between different operating systems must be considered, as some screen readers only function on Windows whilst others only work on MAC. Additionally, compatibility between different screen readers may also be a constraint as each has its own unique method of operation.
 
 ## Milestones
