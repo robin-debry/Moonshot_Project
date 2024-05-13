@@ -1,4 +1,4 @@
-# Product Requirement Document(PRD) Moonshot Project Debry Robin
+# Product Requirement Document(PRD) Moonshot Project
 
 <details>
 <summary>Table of Contents</summary>
@@ -39,6 +39,7 @@ Once the project is operational, it will undergo testing and usage by visually i
 ## Sizing
 
 The investment will require more time, as I have not yet identified any potential economic costs associated with this project.
+In term of time I believe finish the first version before the end of january to have the time to analyse the possible changes
 
 ## Selected solution
 
