@@ -75,11 +75,24 @@ The project is an extension that will have the following functionalities:
 
 ## Must have
 
+- A machine learning model to recognize the content of an image
+- A way to generate the correct alternative text for the image
+- A way to test the extension
+
 ## Out of scope
+
+In the future, the extension could be extended to include the following functionalities:
+
+- Detecting the language of the image
+- Generating alternative text in multiple languages
+- Generating alternative text for videos
+- Deploying the extension to the Chrome Web Store
 
 ## Compatibility
 
 ## Privacy
+
+The extension will not collect any personal information from the user. The extension will only use the image that the user provides as input. The image will not be stored on the server. The extension will generate the correct alternative text for the image and display it to the user.
 
 ## Risks and assumptions
 
@@ -88,5 +101,9 @@ The project is an extension that will have the following functionalities:
 ### Development environment
 
 ## Success criteria
+
+If the extension can generate the correct alternative text for an image, then the project will be considered a success.
+
+It is important to test the extension with a wide range of images to ensure that it can generate the correct alternative text for all types of images.
 
 ## Glossary
