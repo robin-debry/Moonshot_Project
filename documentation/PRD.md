@@ -3,7 +3,7 @@
 <details>
 <summary>Table of Contents</summary>
 
-- [Product Requirement Document(PRD) Moonshot Project Debry Robin](#product-requirement-documentprd-moonshot-project-debry-robin)
+- [Product Requirement Document(PRD) Moonshot Project](#product-requirement-documentprd-moonshot-project)
   - [Overview](#overview)
   - [Opportunity statement](#opportunity-statement)
   - [Audience](#audience)
@@ -59,6 +59,6 @@ The project began on 1st April 2022 after the acceptance of my chosen subject. T
 
 - **Beta testing** : This milestone entails testing an almost-final iteration of the software with a sizeable user group to pinpoint any residual glitches, user experience problems, or other aspects requiring enhancement. As a result, I shall reach out to relevant associations to enlist a substantial number of test users.
 
-- **Launch**: This milestone entails public release of the extension on Firefox.
+- **Launch**: This milestone entails public release of the extension on Google Chrome.
 
 - **Ongoing maintenance and support**: This milestone entails regular updates for bug fixes, maintaining the extension, and providing support to users who experience issues or require assistance in using the software.
