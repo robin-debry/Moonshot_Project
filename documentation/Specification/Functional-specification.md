@@ -28,6 +28,8 @@
   - [Success criteria](#success-criteria)
   - [Glossary](#glossary)
 
+</details>
+
 ## Overview
 
 ### Context
@@ -36,7 +38,7 @@ Nowadays, the web is a very important part of our lives. It is used for many thi
 
 ### Users
 
-The users of this project are people with visual impairments who use screen readers to access the web.
+In the world, there are between 40 and 45 million people who are blind. There are also between 285 and 300 million people who are visually impaired.
 
 ## What is a screen reader ?
 
@@ -89,6 +91,23 @@ In the future, the extension could be extended to include the following function
 - Deploying the extension to the Chrome Web Store
 
 ## Compatibility
+
+The extension will be compatible with the following browsers:
+
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Apple Safari
+
+I choose these browsers because they are the most popular browsers in the world. By making the extension compatible with these browsers, we can reach the largest number of users.
+
+The extension will be compatible with the following screen readers:
+
+- JAWS
+- NVDA
+- VoiceOver
+
+I choose these screen readers because they are the most used screen readers by people with visual impairments. By making the extension compatible with these screen readers, we can reach the largest number of users.
 
 ## Privacy
 
