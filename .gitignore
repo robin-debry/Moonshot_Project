@@ -13,4 +13,5 @@ __pycache__
 *.pt
 *.cfg
 Moonshot-Project/yolov8env/*
+Moonshot-Project/yolov10env
 
