@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Extension d'ajout d'attribut alt aux images",
+  "version": "1.0",
+  "description": "Cette extension ajoute automatiquement des attributs alt aux images sans alt sur les pages web.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "scripting",
+    "http://localhost:5000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' http://localhost:5000; object-src 'self'"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
