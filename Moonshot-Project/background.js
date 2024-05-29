@@ -1,8 +1,13 @@
-chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
+// In background.js
+console.log('Background script loaded');
+
+chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  console.log('Received message:', message);
   if (message.command === 'activateExtension') {
-    chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
       if (tabs.length > 0) {
         const tabId = tabs[0].id;
+        console.log('Active tab ID:', tabId);
 
         chrome.scripting.executeScript({
           target: { tabId: tabId },
@@ -11,10 +16,12 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
           }
         }, async (results) => {
           if (chrome.runtime.lastError || !results || results.length === 0) {
+            console.error('No images found or error occurred:', chrome.runtime.lastError);
             sendResponse({ success: false, error: 'No images found.' });
             return;
           }
 
+          console.log('Image sources found:', results);
           const imageSources = results[0].result;
           const formData = new FormData();
 
@@ -31,6 +38,7 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
             });
             const data = await result.json();
 
+            console.log('Received alt texts:', data.alt_texts);
             const altTexts = data.alt_texts;
             chrome.scripting.executeScript({
               target: { tabId: tabId },
@@ -49,12 +57,14 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
 
             sendResponse({ success: true });
           } catch (error) {
+            console.error('Error processing images:', error);
             sendResponse({ success: false, error: error.message });
           }
         });
 
         return true; // Keep the message channel open for sendResponse
       } else {
+        console.error('No active tab found.');
         sendResponse({ success: false, error: 'No active tab found.' });
       }
     });
