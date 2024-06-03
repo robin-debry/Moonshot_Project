@@ -285,3 +285,6 @@ A tool to keep dependencies required by different projects in separate places, b
 
 **VoiceOver**
 A screen reader built into Apple Inc.'s macOS, iOS, watchOS, and tvOS operating systems. It enables visually impaired users to use a computer or mobile device.
+
+**Dependencies**
+Software libraries or packages that a program needs to function correctly. They are usually installed using package managers like pip for Python.
