@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Extension d'ajout d'attribut alt aux images",
+  "name": "Extension to add alt attributes to images",
   "version": "1.0",
-  "description": "Cette extension ajoute automatiquement des attributs alt aux images sans alt sur les pages web.",
+  "description": "This extension automatically adds alt attributes to images without alt on web pages.",
   "permissions": [
     "activeTab",
     "tabs",

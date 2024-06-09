@@ -212,8 +212,8 @@ The security for extension is very important. The extension will not collect any
 
 #### Version Control
 
-Git: For version control.
-GitHub/GitLab/Bitbucket: For repository hosting and collaboration.
+- Git: For version control.
+- GitHub For repository hosting.
 
 #### Setup Development Environment
 

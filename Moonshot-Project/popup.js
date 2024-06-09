@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
   activateButton.addEventListener('click', function () {
     chrome.runtime.sendMessage({ command: 'activateExtension' }, function (response) {
       if (response && response.success) {
-        alert('L\'extension a été activée avec succès !');
+        alert('The extension has been activated.');
       } else {
-        alert('Une erreur est survenue lors de l\'activation de l\'extension.');
+        alert('The extension could not be activated.');
       }
     });
   });

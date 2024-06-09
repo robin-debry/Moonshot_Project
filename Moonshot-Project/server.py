@@ -31,7 +31,7 @@ except Exception as e:
 def detect():
     try:
         files = request.files.getlist('images')
-        confidence_threshold = float(request.form.get('confidence', 0.10))
+        confidence_threshold = float(request.form.get('confidence', 0.60))
         alt_texts = []
 
         for file in files:

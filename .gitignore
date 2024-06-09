@@ -14,4 +14,6 @@ __pycache__
 *.cfg
 Moonshot-Project/yolov8env/*
 Moonshot-Project/yolov10env
+Moonshot-Project/runs
+datasets
 
