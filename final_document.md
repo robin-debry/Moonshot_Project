@@ -377,7 +377,7 @@ It will generate the dataset automatically.
 
 To track the performance of the model, we can use the Comet_ml package. This package allows us to log and visualize the training process, including metrics, hyperparameters, and model performance.
 With Comet_ml, we can easily monitor the training progress with graphs and charts, making it easier to optimize the model.
-![Comet_ml](images/trackingComet_ml.png)
+![Comet_ml](documentation/Specification/images/trackingComet_ml.png)
 
 ## Integrating the extension with the browser
 
