@@ -1,9 +1,9 @@
-# Final Document
+# Written report
 
 <details>
 <summary>Table of contents</summary>
 
-- [Final Document](#final-document)
+- [Written report](#written-report)
   - [Context](#context)
   - [Target audience](#target-audience)
   - [Screen reader](#screen-reader)
@@ -30,7 +30,6 @@
       - [Setup Development Environment](#setup-development-environment)
       - [Develop Machine Learning Model](#develop-machine-learning-model)
       - [Create Backend Server](#create-backend-server)
-  - [Testing](#testing)
   - [Success criteria](#success-criteria)
   - [Technologies](#technologies)
     - [Browser Extension (Frontend)](#browser-extension-frontend)
@@ -266,11 +265,6 @@ The security for extension is very important. The extension will not collect any
 - Set up a Flask server.
 - Load the trained machine learning model.
 - Create API endpoints to handle image uploads and return generated alternative text.
-
-## Testing
-
-- Test the browser extension across different browsers and screen readers for the first version it will be tested on Google Chrome with VoiceOver.
-- Test the extension with a wide range of images to ensure that it can generate the correct alternative text for all types of images.
 
 ## Success criteria
 
@@ -624,12 +618,12 @@ Scalability: Better suited for larger applications with complex requirements.
 Like I was alone on this project. I was responsible for all aspects of the project, so I put in place different milestones to ensure the project was on track.
 
 1. **Research and Planning:** This phase involved researching the problem, understanding the target audience, and planning the project scope and requirements.
-This phase will be completed in approximately 1 year. Because it is a complex project with a complex subject to understand.
+This phase will be completed in approximately 1 year and 2 month. Because it is a complex project with a complex subject to understand.
 
 2. **Development:** This phase involved developing the machine learning model, setting up the backend server, and creating the browser extension.
-This phase will be completed in approximately 4 month.
+This phase will be completed in approximately 6 month.
 
-3. **Testing:** This phase involved testing the extension with different browsers and screen readers, as well as testing the machine learning model with a wide range of images. This phase will be completed in approximately 2 month. To test the extension with different browsers and screen readers, as well as test the machine learning model with a wide range of images.
+3. **Testing:** This phase involved testing the extension with different browsers and screen readers, as well as testing the machine learning model with a wide range of images. This phase will be completed in approximately 4 month. To test the extension with different browsers and screen readers, as well as test the machine learning model with a wide range of images.
 
 ## Conclusion
 
