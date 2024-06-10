@@ -47,6 +47,35 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 images.forEach((img, index) => {
                   if (index < altTexts.length) {
                     img.alt = altTexts[index];
+                    img.setAttribute('role', 'img'); // Ensure the role is explicitly set
+
+                    // Add a unique id to each image for better focus control
+                    img.id = `image-${index}`;
+
+                    // Force screen reader to re-evaluate the image
+                    const originalParent = img.parentNode;
+                    const placeholder = document.createElement('span');
+                    placeholder.setAttribute('aria-hidden', 'true');
+                    originalParent.replaceChild(placeholder, img);
+
+                    setTimeout(() => {
+                      placeholder.replaceWith(img);
+
+                      // Set aria-live attribute on the image's container to notify screen reader of the change
+                      const container = document.createElement('div');
+                      container.setAttribute('aria-live', 'assertive');
+                      container.appendChild(img);
+                      originalParent.appendChild(container);
+
+                      // Focus on the image to ensure it gets re-evaluated
+                      img.focus();
+
+                      // Optionally, remove the aria-live container after focus to clean up the DOM
+                      setTimeout(() => {
+                        originalParent.appendChild(img); // Move image back to original parent
+                        container.remove(); // Remove the temporary container
+                      }, 100);
+                    }, 50); // Adjust the delay as needed
                   } else {
                     img.alt = "No detectable objects";
                   }

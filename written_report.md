@@ -64,6 +64,7 @@
     - [Ruby on rails](#ruby-on-rails)
   - [Detailed comparison table of backend frameworks](#detailed-comparison-table-of-backend-frameworks)
   - [Management](#management)
+  - [Retrospective](#retrospective)
   - [Conclusion](#conclusion)
   - [Glossary](#glossary)
   - [References](#references)
@@ -87,6 +88,8 @@ A screen reader is software that reads the content of a web page out loud. It do
 ### How does screen reader work?
 
 A screen reader works by converting the text on a web page into speech. It does this by using a text-to-speech engine.
+
+![Flow chart of Screen Reader NVDA](documentation/Specification/images/screen-readers.jpeg)
 
 ### Why it is useful to improve them?
 
@@ -580,9 +583,9 @@ Scalability: Better suited for larger applications with complex requirements.
 
 **Weaknesses:**
 
-- Callback Hell: Can lead to complex and hard-to-maintain code if not managed properly (though modern practices like Promises and async/await help mitigate this).
+- Callback Hell: This can lead to complex and hard-to-maintain code if not managed properly (though modern practices like Promises and async/await help mitigate this).
 - Single-Threaded: Despite its asynchronous nature, Node.js runs on a single thread, which can be a bottleneck for CPU-intensive tasks.
-- Scalability: Can be challenging to scale for very high-traffic applications.
+- Scalability: This can be challenging to scale for very high-traffic applications.
 
 ### Ruby on rails
 
@@ -596,7 +599,7 @@ Scalability: Better suited for larger applications with complex requirements.
 **Weaknesses:**
 
 - Performance: Generally slower than Node.js and even Flask in some scenarios.
-- Scalability: Can be more challenging to scale for very high-traffic applications.
+- Scalability: This can be more challenging to scale for very high-traffic applications.
 
 ## Detailed comparison table of backend frameworks
 
@@ -618,16 +621,20 @@ Scalability: Better suited for larger applications with complex requirements.
 Like I was alone on this project. I was responsible for all aspects of the project, so I put in place different milestones to ensure the project was on track.
 
 1. **Research and Planning:** This phase involved researching the problem, understanding the target audience, and planning the project scope and requirements.
-This phase will be completed in approximately 1 year and 2 month. Because it is a complex project with a complex subject to understand.
+This phase will be completed in approximately 1 year and 2 months. Because it is a complex project with a complex subject to understand.
 
 2. **Development:** This phase involved developing the machine learning model, setting up the backend server, and creating the browser extension.
-This phase will be completed in approximately 6 month.
+This phase will be completed in approximately 6 months.
 
-3. **Testing:** This phase involved testing the extension with different browsers and screen readers, as well as testing the machine learning model with a wide range of images. This phase will be completed in approximately 4 month. To test the extension with different browsers and screen readers, as well as test the machine learning model with a wide range of images.
+3. **Testing:** This phase involved testing the extension with different browsers and screen readers, as well as testing the machine learning model with a wide range of images. This phase will be completed in approximately 4 months. To test the extension with different browsers and screen readers, as well as test the machine learning model with a wide range of images.
+
+## Retrospective
+
+I have learned so much in this project about what web accessibility standards mean and the day-to-day challenges presented to visually impaired users. Things I have also learned could be tools and technologies used to make web accessibility better, like screen readers and even machine learning models. During this project, I faced some challenges, from training the machine learning model to integrating the extension with different browsers. I was indeed able to get them all thrashed by seeking recourse to the community and online help resources. If I did this project again, I would put a focus on some users' testing and feedback to ensure that the extension can serve well for needs of the visually impaired. Reliance on users will also be sought through other machine learning models and frameworks to enhance both the accuracy and performance of the model. I will also look at using a cloud service to host the server for better scalability and performance.
 
 ## Conclusion
 
-This project intends to significantly enhance web accessibility for visually impaired users by creating a tool that generates accurate alternative text for images. Using machine learning, this project shall try to bridge the gap between visual content and people who depend on screen readers to make the web more accessible to all.
+This project intends to significantly enhance web accessibility for visually impaired users by creating a tool that generates accurate alternative text for images. Using machine learning, this project shall try to bridge the gap between visual content and people who depend on screen readers to make the web more accessible to all. I'm confident that this project will have a positive impact on the lives of visually impaired users by providing them with a more inclusive and accessible web experience.
 
 ## Glossary
 
@@ -666,10 +673,9 @@ Software libraries or packages that a program needs to function correctly. They 
 
 ## References
 
-- [JAWS (Job Access With Speech)](https://www.freedomscientific.com/products/software/jaws/)
+- [JAWS (Job Access With Speech)](https://support.freedomscientific.com/products/blindness/jawsdocumentation)
 - [NVDA (NonVisual Desktop Access)](https://www.nvaccess.org/)
 - [VoiceOver](https://www.apple.com/accessibility/mac/vision/)
-- [Google Chrome](https://www.google.com/chrome/)
 - [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
 - [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
 - [Comet_ml](https://www.comet.ml/)
